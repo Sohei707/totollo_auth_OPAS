@@ -1,5 +1,7 @@
 "use strict";
-
+/*
+テストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテスト
+*/
 const path = require("path");
 const fs = require("fs");
 const getPublicUrlOrPath = require("react-dev-utils/getPublicUrlOrPath");
@@ -33,6 +35,10 @@ const moduleFileExtensions = [
   "json",
   "web.jsx",
   "jsx",
+  "testing",
+  "test",
+  "coadreview",
+  "testing"
 ];
 
 // Resolve file paths in the same order as webpack
