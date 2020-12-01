@@ -1,5 +1,6 @@
 'use strict';
 
+
 const fs = require('fs');
 const path = require('path');
 const paths = require('./paths');
@@ -124,6 +125,8 @@ function getModules() {
   } else if (hasJsConfig) {
     config = require(paths.appJsConfig);
   }
+
+  //ここからわかりません、、ヒントお願いします。
 
   config = config || {};
   const options = config.compilerOptions || {};
